@@ -17,7 +17,7 @@ popular_item_price = 375.00   # Venetian Shrimp with Polenta
 # Delivery option (boolean)
 has_delivery = True
 
-# Product names (list of strings)
+# Product names (string)
 product_names = ["Scallop Sliders", "Seafood Paella", "Crispy Crab Cakes"]
 
 # Business hours (dictionary)
@@ -26,7 +26,7 @@ business_hours = {
     "Closing": "10:00 PM"
 }
 
-# Menu prices (dictionary with item-price pairs)
+# Menu prices (dictionary)
 menu_prices = {
     "Venetian Shrimp with Polenta": 375.00,
     "Seafood Paella": 450.00,
@@ -35,14 +35,13 @@ menu_prices = {
     "Lobster Rolls": 300.00
 }
 
-# Common allergens (list of strings)
+# Common allergens (string)
 common_allergens = ["Seafood", "Shellfish", "Dairy"]
 
 # Tax rate (float)
 tax_rate = 0.08
 
 
-# --- Display at least 5 data ---
 print("Restaurant Name:", restaurant_name)
 print("Owner:", owner_name)
 print("Established:", year_established)
